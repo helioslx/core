@@ -3,7 +3,7 @@
 Thanks for helping improve `@helioslx/core`.
 
 Community expectations and project policy live in the
-[Helios docs](https://github.com/helioslx/docs) (code of conduct, governance,
+[Helios docs](https://docs.helioslx.com/docs/core) (code of conduct, governance,
 support, trademark).
 
 ## Before opening work
@@ -38,7 +38,7 @@ npm pack --dry-run
 ```
 
 Do not run network tests against a live lighting rig. Follow
-[live-lighting safety](https://github.com/helioslx/docs/blob/main/content/docs/core/guides/safety.mdx).
+[live-lighting safety](https://docs.helioslx.com/docs/core/guides/safety).
 
 ## Pull requests
 
@@ -72,7 +72,7 @@ not have the right to contribute.
   product licensing.
 
 Public changes follow
-[versioning](https://github.com/helioslx/docs/blob/main/content/docs/core/guides/versioning.mdx).
+[versioning](https://docs.helioslx.com/docs/core/guides/versioning).
 Update [CHANGELOG.md](CHANGELOG.md) under `Unreleased` for user-visible
 changes.
 

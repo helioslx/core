@@ -56,7 +56,7 @@ defect:
 
 Operational safety incidents are important but are not automatically security
 vulnerabilities. Follow
-[live-lighting safety](https://github.com/helioslx/docs/blob/main/content/docs/core/guides/safety.mdx)
+[live-lighting safety](https://docs.helioslx.com/docs/core/guides/safety)
 immediately and use private reporting if an attacker can trigger the behavior.
 
 ## Disclosure

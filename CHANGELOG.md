@@ -5,7 +5,7 @@ All notable changes to this project will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 and the project follows [Semantic Versioning](https://semver.org/), with the
 pre-1.0 policy described in
-[versioning](https://github.com/helioslx/docs/blob/main/content/docs/core/guides/versioning.mdx).
+[versioning](https://docs.helioslx.com/docs/core/guides/versioning).
 
 ## 0.2.0 - 2026-07-13
 

@@ -14,7 +14,7 @@ or show concepts.
 > **Live-lighting warning:** Test with disconnected fixtures or a closed test
 > network first. Incorrect values, universes, priorities, or interface
 > selection can move equipment, trigger strobes, or black out a venue. See
-> [live-lighting safety](https://github.com/helioslx/docs/blob/main/content/docs/core/guides/safety.mdx)
+> [live-lighting safety](https://docs.helioslx.com/docs/core/guides/safety)
 > before connecting to a live rig.
 
 ## Requirements
@@ -150,7 +150,7 @@ when a transport ignores cancellation. Source transport shutdown is bounded by
 ## Documentation
 
 Guides, API reference, examples, and community policies:
-[helioslx/docs](https://github.com/helioslx/docs).
+[docs.helioslx.com](https://docs.helioslx.com/docs/core).
 
 Runnable samples also live in [`examples/`](examples/).
 
