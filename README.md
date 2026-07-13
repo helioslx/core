@@ -6,6 +6,8 @@
 [![Node](https://img.shields.io/node/v/@helioslx/core)](https://nodejs.org)
 [![License](https://img.shields.io/github/license/helioslx/core)](LICENSE)
 
+The open toolkit for modern lighting control.
+
 `@helioslx/core` is a TypeScript toolkit for sending and observing sACN (E1.31)
 from Node.js. Validated 512-slot DMX frames, sparse channel writes, fades,
 optional persistence, and packet viewing — without fixture, personality, scene,
