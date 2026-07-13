@@ -1,0 +1,74 @@
+name: Bug report
+description: Report a reproducible defect
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report vulnerabilities here. Use private reporting under the Security tab.
+        Remove credentials, private network details, and venue-sensitive information.
+
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: 0.1.0
+    validations:
+      required: true
+
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime and operating system
+      placeholder: Node 22.x on Ubuntu 24.04
+    validations:
+      required: true
+
+  - type: dropdown
+    id: subpath
+    attributes:
+      label: Area
+      options:
+        - Core/controller
+        - Node sender/receiver
+        - Redis
+        - HTTP/WebSocket
+        - Viewer
+        - Testing utilities
+        - Documentation/release
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include sanitized code and exact steps.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety checks
+      options:
+        - label: I reproduced this away from a live rig or with outputs safely inhibited.
+          required: true
+        - label: I removed secrets and sensitive production information.
+          required: true
