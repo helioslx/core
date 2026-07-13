@@ -1,6 +1,6 @@
 {
   "name": "@helioslx/core",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "TypeScript toolkit for sending and observing sACN (E1.31) from Node.js",
   "type": "module",
   "sideEffects": false,
