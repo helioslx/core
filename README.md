@@ -42,28 +42,9 @@ npm install @helioslx/core sacn
 ```ts
 import { createSacnSource } from "@helioslx/core/node";
 
-const source = createSacnSource({
-  name: "My lighting app",
-  transportOptions: {
-    // Set iface when the host has more than one network interface.
-    iface: "192.168.10.20",
-  },
-});
+const universe = createSacnSource().universe(1);
 
-const universe = source.universe(1, {
-  priority: 100,
-  sourceName: "Dimmers",
-});
-
-await universe.fadeChannels(
-  {
-    1: 255,
-    2: 128,
-  },
-  { durationMs: 1_000 },
-);
-
-// Node sources install SIGINT/SIGTERM/beforeExit handlers that call close().
+await universe.setChannels({ 1: 255, 2: 128 });
 ```
 
 Public channels are one-based (`1..512`); values are integers from `0..255`.
