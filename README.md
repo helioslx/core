@@ -1,8 +1,11 @@
+<p align="center">
+  <img src="banner.png" alt="Helios" width="640" />
+</p>
+
 # Helios Core
 
 [![npm](https://img.shields.io/npm/v/@helioslx/core)](https://www.npmjs.com/package/@helioslx/core)
-[![CI](https://img.shields.io/github/actions/workflow/status/helioslx/core/ci.yml?branch=main&label=CI)](https://github.com/helioslx/core/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/codecov/c/github/helioslx/core)](https://codecov.io/gh/helioslx/core)
+[![CI](https://img.shields.io/github/actions/workflow/status/helioslx/core/ci.yml?branch=master&label=CI)](https://github.com/helioslx/core/actions/workflows/ci.yml)
 [![Node](https://img.shields.io/node/v/@helioslx/core)](https://nodejs.org)
 [![License](https://img.shields.io/github/license/helioslx/core)](LICENSE)
 
